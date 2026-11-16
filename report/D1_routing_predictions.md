@@ -66,3 +66,5 @@ Routing key #6 consists of only **two tokens**: `[bangalore]` and `[koramangala]
 - Unroutable / dropped messages: 1 (`chennai.whitefield.ride`)
 - Single-consumer messages: 2 (`chennai.tnagar.food`, `bangalore.koramangala`)
 - Multi-consumer messages: 3 (`bangalore.koramangala.food`, `bangalore.indiranagar.ride`, `bangalore.whitefield.ride`)
+
+<!-- Pre-run predictions documented -->
