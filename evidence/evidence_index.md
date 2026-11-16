@@ -34,3 +34,5 @@
 The directory `evidence/execution_logs/` contains raw, unedited logs recorded during live test runs:
 - `bonus_experiment.log`: Full timestamped transcript of the Baseline check, 60s consumer collection (10 valid orders accepted, 2 malformed orders rejected), Snowflake load, Run 1 metrics, forced batch replay, Run 2 metrics, and the mathematical proof of idempotency (delta = 0).
 - `stream_execution.log`: Multi-threaded runner log verifying concurrent drivers (Ravi, Arjun, Control) matching routing keys on CloudAMQP and rejecting malformed payloads with NACK.
+
+<!-- Packaging and evidence verified -->
