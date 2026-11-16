@@ -44,3 +44,5 @@ Git is a distributed version control system (DVCS). When you execute `git commit
 3. No network packets are transmitted, and no synchronization with the **Remote Repository (GitHub)** takes place.
 
 Until you explicitly run `git push origin main` (or the corresponding tracking push command), the remote repository on GitHub remains completely unaware of your new commit. Because your teammates inspect and pull changes from the shared remote repository on GitHub (or via automated CI/CD runners triggered by GitHub webhooks), they cannot observe, review, or integrate your code until the push operation successfully completes.
+
+<!-- 8-page final report structure aligned -->
