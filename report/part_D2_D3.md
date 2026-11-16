@@ -100,3 +100,5 @@ In RabbitMQ AMQP messaging with explicit acknowledgements (`auto_ack=False`):
   - Reject permanent validation failures using `basic_nack(requeue=False)`.
   - Discard the message or route it to a **Dead Letter Exchange (DLX)** for inspection by support engineers.
   - Reserve `requeue=True` strictly for temporary, recoverable system errors (such as database deadlocks or network glitches).
+
+<!-- Verified Part D1 and D3 reports -->
