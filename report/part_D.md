@@ -106,3 +106,5 @@ RabbitMQ tracks unacknowledged deliveries per channel. When a consumer node/work
   2. Consumer logs get flooded with identical failure traces.
   3. All legitimate messages queued behind the poison pill get completely starved and delayed.
 - **Solution:** Always reject permanently unrecoverable messages with `requeue=False` (discard or Dead Letter Queue `DLQ`), and reserve `requeue=True` strictly for transient failures (such as temporary database connection timeouts).
+
+<!-- Architecture notes and poison pill handling -->
