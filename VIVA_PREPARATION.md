@@ -162,3 +162,5 @@
 | **Mage ML** | 4-block DAG + parallel evaluation branch + custom test block | Prevents bad models from exporting predictions via in-DAG `@test` assertion | Evaluates Decision Trees on a single node (not distributed Spark) |
 | **RabbitMQ** | Topic exchange (`rapido-dispatch`) + HTTP API fallback | Guarantees reliability when enterprise firewalls block raw AMQP ports 5671/5672 | HTTP polling has slightly higher latency (~100ms) than long-lived TCP socket streaming |
 | **Bonus Lakehouse** | 60s micro-batching consumer into landing + COPY INTO | Demonstrates Lambda/Kappa micro-batch bridge from streaming to data warehouse | Micro-batch interval is 60 seconds rather than sub-second real-time streaming |
+
+<!-- Author details updated to Prince Narula (23bcs203) -->
