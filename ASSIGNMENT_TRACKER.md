@@ -93,3 +93,4 @@
 | **Bonus.3** | Mandatory Idempotency Experiment | Replayed exact same landing batch into Bronze with `FORCE=TRUE` and re-executed complete ELT pipeline | Automated 2-run experiment in `stream/run_bonus_experiment.py` | Replay does NOT double-count Gold orders or revenue | Delta Rows: 0, Delta Revenue: ₹0.00, Delta Points: 0 (100% idempotent) | ✅ **VERIFIED** | `screenshots/bonus/03_gold_first_batch_vs_replay_idempotency.png` | Pending commit |
 
 <!-- Verified Part A CI runs recorded -->
+<!-- All 100% deliverables verified -->
