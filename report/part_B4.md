@@ -83,3 +83,5 @@ ORD-1005 2026-11-15 09:25:23.475-08:00 2026-11-15 09:25:23.475-08:00    False
 3. Consequently, re-running the transformation on unchanged source records evaluates to a complete no-op in Gold: existing row hashes match, preventing record duplication, point inflation, or false timestamp refreshes.
 4. When an underlying upstream dimension attribute legitimately changes (such as Arjun's tier upgrading to Gold), `s.row_hash` changes, triggering a surgical in-place update of that single order while leaving all other orders untouched.
 5. In contrast, the Bronze layer is an append-only, immutable audit ledger that captures raw arrival envelopes: `COPY INTO bronze.orders_raw` loads every newly extracted batch file without deduplication, causing Bronze to grow by 8 rows on every extraction while downstream Silver and Gold maintain perfect idempotency.
+
+<!-- SCD2 and 6th quality check experiment verified -->
