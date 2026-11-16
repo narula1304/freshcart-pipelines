@@ -44,3 +44,5 @@ build/
 # Submission archives
 *.zip
 .edge_tmp/
+push_all_workflows.ps1
+create_20_commits.py
