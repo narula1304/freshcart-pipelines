@@ -225,3 +225,5 @@ python -m stream.run_bonus_experiment
 python report/generate_report_html.py
 ```
 *Compiles `report/report_document.html` into `report/23bcs203_Prince_Narula_Pipelines.pdf` and `report/RollNo_Name_Pipelines.pdf` using Microsoft Edge headless.*
+
+<!-- Intermediate HTML files cleaned up -->
