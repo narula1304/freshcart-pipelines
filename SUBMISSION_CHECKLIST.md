@@ -51,3 +51,5 @@ Every item listed below has been verified against actual project files, executio
 
 - [x] **Viva preparation document retained for personal preparation**  
   *Verified:* `VIVA_PREPARATION.md` (and `report/VIVA_PREPARATION.md`) provides interview-ready answers, technical explanations, SQL traces, and follow-up defenses across all 5 assignment topics.
+
+<!-- Cleaned marks verification table -->
