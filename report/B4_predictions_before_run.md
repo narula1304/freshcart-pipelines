@@ -25,3 +25,5 @@ Prior tier history: `CUST-02` held `Silver` effective from `2024-01-15`.
 | **Loyalty points for `ORD-1002`** | 35 | **70** | USD 42.50 at FX 83.20 = ₹3,536.00. Base units = $\lfloor 3536 / 100 \rfloor = 35$. Multiplied by Gold multiplier ($2$) = $35 \times 2 = \mathbf{70}$. |
 | **Total loyalty points in Gold** | 126 | **161** | Baseline total ($126$) + Arjun's incremental points ($+35$) = $126 + 35 = \mathbf{161}$. |
 | **Number of Gold rows whose `published_at` changed** | — | **1** | The `MERGE` statement updates rows only when `t.row_hash <> s.row_hash`. Only `ORD-1002` has changed attributes; the other 3 orders retain identical hashes and untouched `published_at` timestamps. |
+
+<!-- Pre-run SCD2 predictions recorded -->
