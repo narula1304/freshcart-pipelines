@@ -251,3 +251,5 @@ if __name__ == "__main__":
     records = collect_stream_orders(duration_seconds=60)
     run_id = f"stream_{int(time.time())}"
     run_pipeline_with_stream(records, run_id)
+
+# Verified 60s micro-batching into Snowflake Bronze
